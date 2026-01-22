@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>军棋 - 全能棋类对战平台</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        #game-board {
+            background-color: #e0c090;
+        }
+    </style>
+</head>
+<body>
+    <h1>军棋 (明棋版)</h1>
+    <div class="status" id="status">等待开始...</div>
+    <div class="controls">
+        <button id="start-pvp">人人对战</button>
+        <button id="start-pve">人机对战</button>
+        <button id="undo">悔棋</button>
+        <button id="surrender">投降</button>
+        <button id="save">保存棋局</button>
+        <button id="load">加载棋局</button>
+    </div>
+    <canvas id="game-board" width="400" height="600"></canvas>
+    <a href="../index.html" class="back-link">返回主页</a>
+
+    <script src="military-chess.js"></script>
+</body>
+</html>
